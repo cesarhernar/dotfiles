@@ -1,0 +1,12 @@
+- clean: [
+  '~'
+]
+
+- clean:
+    ~/:
+      force: true
+    ~/.config:
+      recursive: true
+
+- link:
+    ~/.config/kitty: kitty
