@@ -9,4 +9,5 @@
       recursive: true
 
 - link:
-    ~/.config/kitty: kitty
+    ~/.config/kitty: kitty,
+    ~/.zshrc: environment/zshrc
